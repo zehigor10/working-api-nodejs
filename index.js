@@ -4,7 +4,7 @@ const app = express()
 
 app.listen('3000')
 
-// GET - Listar 
+// GET - Listar  
 app.route('/home').get((req, res) => res.send("Olá, primeira chamada http.get realizada com sucesso"))
 app.route('/sobre').get((req, res) => res.send("Olá, segunda chamada http.get realizada com sucesso"))
 
